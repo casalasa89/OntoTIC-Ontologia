@@ -1,22 +1,12 @@
-# OntoTIC · Ontología
+# OntoTIC Ontology
 
-Repositorio para formalizar el modelo conceptual de capacidades de innovación tecnológica, roles organizacionales y relaciones de complementariedad.
+Repository for the OWL 2 semantic layer used by the **OntoTIC–LDA V6.13 pipeline**.
 
-## Estado
+Files:
 
-Estructura inicial. Los materiales académicos de trabajo requieren depuración y validación antes de incorporar una versión OWL. Un documento conceptual o un diagrama por sí solos no constituyen una ontología computacional validada.
+- `ontology/OntoTIC_2_0_v0_9_capa_lexico_semantica_LDA.owl.gz`
+- `ontology/Diccionario_Semantico_OntoTIC_LDA_V613.xlsx`
 
-## Ruta de trabajo
+OntoTIC supplies preferred labels, alternative labels, normalized forms, hierarchical relations, and mappings to four analytical capability dimensions: Research, Development, Marketing, and Dissemination and Transfer.
 
-1. Definir preguntas de competencia, alcance y glosario.
-2. Explicitar clases, propiedades, restricciones y procedencia de cada decisión.
-3. Serializar en OWL/Turtle y comprobar consistencia con un razonador.
-4. Evaluar con especialistas y publicar versiones trazables.
-
-## Relación con LDA
-
-Los tópicos detectados en textos sugieren términos candidatos y asociaciones. La interpretación y aceptación de clases y relaciones requiere revisión semántica humana; un tópico estadístico no equivale automáticamente a una clase ontológica.
-
-## Uso
-
-El repositorio aún no tiene licencia de reutilización; consultar condiciones antes de redistribuir materiales.
+Jaccard similarity is retained only as an auxiliary lexical-overlap diagnostic. It does not assign actor capabilities and does not calculate complementarity.
