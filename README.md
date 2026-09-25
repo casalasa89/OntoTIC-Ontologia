@@ -1,12 +1,10 @@
-# OntoTIC Ontology
+# OntoTIC · ontología vigente
 
-Repository for the OWL 2 semantic layer used by the **OntoTIC–LDA V6.13 pipeline**.
+**Autor: PhD. Carlos Andrés Salazar**
 
-Files:
+- `ontology/OntoTIC_2_0_v0_13_fuentes_contextuales_2026.owl.gz`: versión vigente de la ontología OWL 2. Para abrirla en Protégé, descomprima el archivo `.gz`.
+- `ontology/Diccionario_Semantico_OntoTIC_LDA_V613.xlsx`: diccionario del método LDA v6.13 que sigue siendo la referencia léxica empleada en el análisis.
 
-- `ontology/OntoTIC_2_0_v0_9_capa_lexico_semantica_LDA.owl.gz`
-- `ontology/Diccionario_Semantico_OntoTIC_LDA_V613.xlsx`
+OntoTIC representa las capacidades de investigación, desarrollo, mercadeo y difusión y transferencia, con términos y relaciones semánticas. La similitud Jaccard es una comprobación auxiliar de solapamiento léxico.
 
-OntoTIC supplies preferred labels, alternative labels, normalized forms, hierarchical relations, and mappings to four analytical capability dimensions: Research, Development, Marketing, and Dissemination and Transfer.
-
-Jaccard similarity is retained only as an auxiliary lexical-overlap diagnostic. It does not assign actor capabilities and does not calculate complementarity.
+Repositorio privado de investigación.
